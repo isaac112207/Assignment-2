@@ -25,16 +25,12 @@ int main() {
   // grabs user input data
   cout << "Enter your name: ";
   cin >> name;
-  
   cout << "Enter your age: ";
   cin >> age;
-  
   cout << "Enter your height (meters): ";
   cin >> height;
-  
   cout << "Enter your weight (kilograms): ";
   cin >> weight;
-  
   cout << "Enter your test score(0-100): ";
   cin >> score;
 
@@ -70,7 +66,7 @@ int main() {
   cout << fixed << setprecision(2);
   cout << endl;
   cout << "Hey " << name << ", you are " << age << " years old with a BMI of "
-       << bmi << " (" << bmiCategory << ") and you got a grade "
+       << bmi << ( << bmiCategory << ") and you got a grade "
        << grade << "! Keep it up!" << endl;
   return 0;
 }

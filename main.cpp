@@ -25,16 +25,12 @@ int main() {
   // grabs user input data
   cout << "Enter your name: ";
   cin >> name;
-  
   cout << "Enter your age: ";
   cin >> age;
-  
   cout << "Enter your height (meters): ";
   cin >> height;
-  
   cout << "Enter your weight (kilograms): ";
   cin >> weight;
-  
   cout << "Enter your test score(0-100): ";
   cin >> score;
 
