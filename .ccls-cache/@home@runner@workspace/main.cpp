@@ -24,7 +24,7 @@ int main() {
 
   // grabs user input data
   cout << "Enter your name: ";
-  cin >> name;
+  std::getline(cin >> std::ws, name);
   cout << "Enter your age: ";
   cin >> age;
   cout << "Enter your height (meters): ";
@@ -66,7 +66,7 @@ int main() {
   cout << fixed << setprecision(2);
   cout << endl;
   cout << "Hey " << name << ", you are " << age << " years old with a BMI of "
-       << bmi << ( << bmiCategory << ") and you got a grade "
+       << bmi << " (" << bmiCategory << ") and you got a grade "
        << grade << "! Keep it up!" << endl;
   return 0;
 }

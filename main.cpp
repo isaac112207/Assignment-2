@@ -24,7 +24,7 @@ int main() {
 
   // grabs user input data
   cout << "Enter your name: ";
-  cin >> name;
+  std::getline(cin >> std::ws, name);
   cout << "Enter your age: ";
   cin >> age;
   cout << "Enter your height (meters): ";
